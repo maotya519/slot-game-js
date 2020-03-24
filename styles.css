@@ -20,7 +20,7 @@ header {
 .contents {
     display: flex;
     width: 90%;
-    margin: 40px auto 0 auto;
+    margin: 60px auto 0 auto;
 }
 .slot_image {
     width: 32%;
@@ -32,7 +32,7 @@ header {
 .score_image_content {
     background: #fff;
     width: 90%;
-    height: 100px;
+    height: 80px;
     margin: 30px auto 0 auto;
 }
 .common {
@@ -47,7 +47,7 @@ header {
 .click_btn_container {
     display: flex;
     width: 90%;
-    margin: 80px auto 0 auto;
+    margin: 120px auto 0 auto;
 }
 .remain {
     padding: 0 30% 0 0;
@@ -123,4 +123,25 @@ header {
     width: 90%;
     height: 200px;
     z-index: 1;
+}
+.slot_btn_container {
+    width: 80px;
+    height: 40px;
+    background:#455A64;
+    color: #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 8px 8px rgb(45, 58, 65);
+    font-weight: bold;
+}
+.slot_btn_container:active {
+    position: relative;
+    top: 4px;
+}
+.slot_display {
+    position :absolute;
+    right: 20px;
+}
+.slot_btn_tx {
+    line-height: 40px;
 }
