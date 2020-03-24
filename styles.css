@@ -1,0 +1,126 @@
+body {
+    background: #CFD8DC;
+    margin: 0;
+    font-family: 'PMingLiU','Franklin Gothic Medium'、'Mshtakan',sans-serif;
+}
+header {
+    height: 64px;
+    width: 100%;
+    background: #607D8B;
+    box-shadow: 0 8px 8px #455A64;
+    color: #fff;
+    text-align: center;
+}
+.head-title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 64px;
+    font-weight: normal;
+}
+.contents {
+    display: flex;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+.slot_image {
+    width: 32%;
+    height: 120px;
+}
+#slot_imageB {
+    margin: 0 10px 0 10px;
+}
+.score_image_content {
+    background: #fff;
+    width: 90%;
+    height: 100px;
+    margin: 30px auto 0 auto;
+}
+.common {
+    font-weight: bold;
+}
+
+.state_common_change {
+    color: rgb(211, 4, 4);
+    font-size: 32px;
+}
+
+.click_btn_container {
+    display: flex;
+    width: 90%;
+    margin: 80px auto 0 auto;
+}
+.remain {
+    padding: 0 30% 0 0;
+}
+.click_btn {
+    width: 32%;
+    height: 100px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    background: #00E676;
+    line-height: 100px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 0 8px 8px #00C853;
+}
+.click_btn:active {
+    position: relative;
+    top: 4px;
+}
+.change_remain {
+    color :#333;
+}
+.btn_tx {
+    margin: 0;
+}
+.state {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    .modal-content{
+        background-color: white;
+        width: 90%;
+        height: 540px;
+        text-align: center;
+        margin: 30% auto;
+        border-radius: 8px;
+    }
+.modal_title {
+    font-size: 32px;
+    padding: 20px 0 0 0;
+
+}
+.modal_btn_container {
+    width: 120px;
+    height: 60px;
+    background: #00E676;
+    margin: 340px auto 0 auto;
+    color: #455A64;
+    font-weight: bold;
+    box-shadow: 0 8px 8px #00C853;
+}
+.modal_btn_container:active {
+    position: relative;
+    top: 4px;
+}
+.modal_btn_tx {
+    line-height: 60px;
+}
+.modal_slide_image {
+    width: 90%;
+    height: 200px;
+    z-index: 1;
+}
